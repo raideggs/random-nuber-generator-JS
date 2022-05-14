@@ -1,0 +1,36 @@
+let random = Math.floor(Math.random() * 8)
+let numorabc = Math.floor(Math.random() * 2)
+let random1 = Math.floor(Math.random() * 8)
+let random2 = Math.floor(Math.random() * 8)
+let random3 = Math.floor(Math.random() * 8)
+let random4 = Math.floor(Math.random() * 8)
+let random5 = Math.floor(Math.random() * 8)
+let random6 = Math.floor(Math.random() * 8)
+let random7 = Math.floor(Math.random() * 8)
+let lastrandom = Math.floor(Math.random() * 5)
+
+let numbers = ['1','2','3','4','5','6','7','8']
+let abc = ['a','b','c','d','e','f','g','p']
+
+
+let abc1 = abc[random1]
+let abc2 = abc[random2]
+let abc3 = abc[random3]
+let num1 = numbers[random4]
+let num2 = numbers[random5]
+let num3 = numbers[random6]
+let num5 = numbers[random7]
+
+console.log(num3,abc1,num1,abc3,num2,num5)
+
+if(lastrandom = 0){
+        console.log(num3,num2,num1,abc1,abc2,abc3)
+}else if(lastrandom = 1){
+        console.log(abc1,num1,num2,abc2,num5,abc3)
+}else if(lastrandom = 2){
+        console.log(num1,abc1,num2,abc3,abc2)
+}else if(lastrandom = 3){
+        console.log(abc1,num1,abc2,num3,abc3,num5)
+}else if(lastrandom = 4){
+        console.log(abc1,abc2,num2,num3,abc3,num5)
+}
